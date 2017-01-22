@@ -33,8 +33,7 @@ class NumberViewController: UITableViewController{
     }
     
     func initSound() {
-        //TODO: Muziekfragment veranderen!!!
-        if let path = NSDataAsset(name: "leaving_hogwarts_sound") {
+        if let path = NSDataAsset(name: number.muziekfragment) {
             do {
                 try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
                 try! AVAudioSession.sharedInstance().setActive(true)
