@@ -337,6 +337,7 @@
 				TargetAttributes = {
 					D556D6841E34E3E900AD52EE = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2JL6FM25WB;
 						ProvisioningStyle = Automatic;
 					};
 					D556D6981E34E3EA00AD52EE = {
@@ -716,6 +717,7 @@
 			baseConfigurationReference = 115A4ACF0104983FBDFE3BFF /* Pods-ProjectIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2JL6FM25WB;
 				INFOPLIST_FILE = ProjectIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LS.ProjectIOS;
@@ -729,6 +731,7 @@
 			baseConfigurationReference = 66B68A1D1E785CFB9ECE78B1 /* Pods-ProjectIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2JL6FM25WB;
 				INFOPLIST_FILE = ProjectIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LS.ProjectIOS;
