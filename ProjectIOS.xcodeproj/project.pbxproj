@@ -772,6 +772,7 @@
 			baseConfigurationReference = 5EF050B278CD82828AA32DC0 /* Pods-ProjectIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ProjectIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LS.ProjectIOSUITests;
@@ -786,6 +787,7 @@
 			baseConfigurationReference = 55AAB63CE53DBA81A7A7D5B4 /* Pods-ProjectIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ProjectIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LS.ProjectIOSUITests;
@@ -814,6 +816,7 @@
 				D556D6AF1E34E3EA00AD52EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D556D6B01E34E3EA00AD52EE /* Build configuration list for PBXNativeTarget "ProjectIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -822,6 +825,7 @@
 				D556D6B21E34E3EA00AD52EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D556D6B31E34E3EA00AD52EE /* Build configuration list for PBXNativeTarget "ProjectIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -830,6 +834,7 @@
 				D556D6B51E34E3EA00AD52EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
