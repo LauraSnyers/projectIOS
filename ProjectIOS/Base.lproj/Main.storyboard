@@ -1108,7 +1108,7 @@
         <scene sceneID="VIj-5V-MfL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="efF-en-hFh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Albums" image="album" selectedImage="album" id="fzw-uZ-ge9"/>
+                    <tabBarItem key="tabBarItem" title="Albums" image="map" selectedImage="map" id="fzw-uZ-ge9"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8cI-pl-JX3">
@@ -1479,8 +1479,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="album" width="43" height="35"/>
         <image name="albums" width="44" height="35"/>
+        <image name="map" width="35" height="35"/>
         <image name="numbers" width="35" height="35"/>
         <image name="stores" width="35" height="35"/>
     </resources>

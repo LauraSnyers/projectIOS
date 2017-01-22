@@ -35,7 +35,8 @@ class ProjectUITests: XCTestCase {
         app.tables.staticTexts["Harry Potter"].tap()
         XCTAssert(app.navigationBars["Numbers"].exists)
         app.tables.staticTexts["Leaving Hogwarts"].tap()
-        XCTAssert(app.staticTexts["Album: Harry Potter"].exists)
+        XCTAssert(app.navigationBars["Leaving Hogwarts"].exists)
+        //XCTAssert(app.staticTexts["Album: Harry Potter"].exists)
     }
     
     func testMasterAccessibleAfterSegue() {
@@ -77,7 +78,8 @@ class ProjectUITests: XCTestCase {
         app.tables.staticTexts["Filmmusic"].tap()
         XCTAssert(app.navigationBars["Numbers"].exists)
         app.tables.staticTexts["Leaving Hogwarts"].tap()
-        XCTAssert(app.staticTexts["Harry Potter"].exists)
+        XCTAssert(app.navigationBars["Leaving Hogwarts"].exists)
+        //XCTAssert(app.staticTexts["Harry Potter"].exists)
     }
     
     func testMasterAccessibleAfterSegueThemes() {
